@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MasterDetailMenuV2.Price">
+    <!--<StackLayout>
+        <ListView x:Name="phonesList"
+              HasUnevenRows="True"
+              ItemsSource="{Binding News}"
+              SeparatorColor="Red">
+            --><!--ItemTapped="OnItemTapped"--><!--
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <ViewCell.View>
+                            <StackLayout>
+                                <Label Text="{Binding Date}" VerticalOptions="Center"/>
+                                --><!--FontSize="18"--><!--
+                                <Label Text="{Binding Price}" />
+                                --><!--<Label Text="{Binding HrefNews}" />--><!--
+                            </StackLayout>
+                        </ViewCell.View>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>-->
+    
+    <!--<StackLayout>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+            <BoxView Color="Red" Grid.Column="0" Grid.Row="0" />
+            <BoxView Color="Blue" Grid.Column="1" Grid.Row="0" />
+            <BoxView Color="Yellow" Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="2" />
+        </Grid>
+    </StackLayout>-->
+</ContentPage>

@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MasterDetailMenuV2.News">
+    <!--<Button x:Name="ButtonAddNews" Text="Добавить новость"></Button>-->
+    <!--LДанный стэк помогает выводить данные динамически-->
+    <StackLayout>
+    <Label Text="{Binding Source={x:Reference Name=phonesList}, Path=SelectedItem.Title}"
+            FontSize="Large" />
+    <ListView x:Name="phonesList"
+              HasUnevenRows="True"
+              ItemsSource="{Binding News}"
+              SeparatorColor="Red">
+        <!--ItemTapped="OnItemTapped"-->
+        <ListView.ItemTemplate>
+            <DataTemplate>
+                <ViewCell>
+                    <ViewCell.View>
+                        <StackLayout>
+                            <Label Text="{Binding Date}" VerticalOptions="Center"/>  <!--FontSize="18"-->
+                            <Label Text="{Binding TextNews}" />
+                            <!--<Label Text="{Binding HrefNews}" />-->
+                        </StackLayout>
+                    </ViewCell.View>
+                </ViewCell>
+            </DataTemplate>
+        </ListView.ItemTemplate>
+    </ListView>
+    </StackLayout>
+</ContentPage>

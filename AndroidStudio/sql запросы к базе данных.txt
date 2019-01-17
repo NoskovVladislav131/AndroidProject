@@ -1,0 +1,2 @@
+INSERT INTO News( `Date`, `News`, `Href`) VALUES ("2018.03.08 12:09:45","","")
+INSERT INTO $instr( `date`, `m1`, `m5`, `m15`, `m30`, `h1`, `h5`, `d1`, `month1`) VALUES ($date,$m1,$m5,$m15,$m30,$h1,$h5,$d1,$month1)

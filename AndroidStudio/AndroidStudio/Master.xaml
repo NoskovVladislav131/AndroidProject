@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MasterDetailMenuV2.Master"
+             Title="Мастер"
+             BackgroundColor="#43de83"
+             Icon="menu.png">
+    <StackLayout Padding="20">
+        <Button x:Name="ButtonNews" Text="Новости"></Button>
+        <Button x:Name="ButtonPrice" Text="Котировки"></Button>
+        <Button x:Name="ButtonIdeas" Text="Идеи"></Button>
+    </StackLayout>
+    
+</ContentPage>
