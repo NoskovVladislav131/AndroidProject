@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2035
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MasterDetailMenuV2.Android", "MasterDetailMenuV2\MasterDetailMenuV2.Android\MasterDetailMenuV2.Android.csproj", "{39FD4DB7-CB2E-4E34-9345-804121860CAB}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "MasterDetailMenuV2", "MasterDetailMenuV2\MasterDetailMenuV2\MasterDetailMenuV2.shproj", "{D8E090B6-24AD-4EF5-A6E5-6A5E87CBE94F}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		MasterDetailMenuV2\MasterDetailMenuV2\MasterDetailMenuV2.projitems*{39fd4db7-cb2e-4e34-9345-804121860cab}*SharedItemsImports = 4
+		MasterDetailMenuV2\MasterDetailMenuV2\MasterDetailMenuV2.projitems*{d8e090b6-24ad-4ef5-a6e5-6a5e87cbe94f}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{39FD4DB7-CB2E-4E34-9345-804121860CAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39FD4DB7-CB2E-4E34-9345-804121860CAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39FD4DB7-CB2E-4E34-9345-804121860CAB}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{39FD4DB7-CB2E-4E34-9345-804121860CAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39FD4DB7-CB2E-4E34-9345-804121860CAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39FD4DB7-CB2E-4E34-9345-804121860CAB}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A0B7BC3E-211B-45FC-9EFC-D22CFB2E56F7}
+	EndGlobalSection
+EndGlobal
